@@ -1,0 +1,49 @@
+<!-- form: form ia a section of a documnet which contains controls such as textfield,button,etc. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <form action="table.html" method="get">
+        <pre>
+        <label for="Name">Enter Name:</label>
+        <input type="text" placeholder="Enter Name" size="20" id="name" required>
+        <label for="Email">Enter Email:</label>
+        <input type="text" placeholder="Enter Email" size="20" id="email" required>
+        <label for="Pass">Enter Password:</label>
+        <input type="text" placeholder="Enter Password" size="20" id="pass" required>
+
+        <select name="state">
+            <option value="delhi">Delhi</option>
+            <option value="noida">Noida</option>
+            <option value="bihar">Bihar</option>
+            <option value="Haryana">Haryana</option>
+        </select>
+        </pre>
+
+        <label for="ck">Cricket</label>
+        <input type="checkbox" id="ck" value="cricket">
+
+        <label for="fb">Football</label>
+        <input type="checkbox" id="fb" value="football">
+
+        <label for="hky">Hockey</label>
+        <input type="checkbox" id="hky" value="hockey">
+        <br>
+
+        <label for="gender">Enter Your Gender</label><br>
+        <input type="radio" id="gender" name="gender" value="Male">Male
+        <input type="radio" id="gender" name="gender" value="Female">Female
+        <input type="radio" id="gender" name="gender" value="Others">Others
+        <br>
+        <button type="submit">Click</button>
+        </pre>
+    </form>
+    </center>
+</body>
+</html>

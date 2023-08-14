@@ -1,0 +1,11 @@
+h2
+{
+    color: green;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://img.freepik.com/premium-photo/abstract-rainbow-colorful-bright-feather-closeup-up-macro-view-background-plumage-texture-with-dew-drops_753134-644.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
